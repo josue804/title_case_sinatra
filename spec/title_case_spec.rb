@@ -2,7 +2,7 @@ require('rspec')
 require('title_case')
 
 describe('String#title_case') do
-  it ("capitalizes the first letter of a word") do
+  it("capitalizes the first letter of a word") do
     expect(("ulysses").title_case()).to(eq("Ulysses"))
   end
   it("capitalizes first letter of all words") do
